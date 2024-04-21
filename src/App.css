@@ -1,0 +1,66 @@
+.body {
+  width: 100%;
+  height: 100vh;
+  background-color: #A96A77;
+}
+.main {
+  width: 50%; 
+  box-shadow: 4px 4px 4px rgba(157, 1, 38, 0.5),
+  -4px -4px 4px rgba(157, 1, 38, 0.5);
+  border-radius: 0.5rem; 
+  padding: 1rem 1.5rem;  
+  background-color: #F7E4E7; 
+  color: rgb(157, 1, 38);
+  position: absolute;
+  top: 50%;
+  transform: translate(50%,-50%);
+}
+.title {
+  text-align: center;
+  font-size: 40px;
+}
+.input-container {
+  display: flex;
+  overflow: hidden;
+  border-radius: 5px;
+  height: 40px;
+  box-shadow: 4px 4px 4px rgba(157, 1, 38, 0.5),
+  -4px -4px 4px rgba(157, 1, 38, 0.5);
+  
+}
+.input-text {
+  flex: 6;
+  
+}
+
+.btn {
+  flex: 1;
+  background: #9d0126;
+  color: #F7E4E7;
+}
+.options-container {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+.length {
+  display: flex;
+  gap: 10px;
+  font-size: 18px;
+  flex-wrap: nowrap;
+}
+
+.options {
+  display: flex;
+  gap: 20px;
+  flex-wrap: nowrap;
+}
+.options label {
+  font-size: 20px;
+  padding-left: 10px;
+}
+.checkbox {
+  display: flex;
+  flex-wrap: nowrap;
+}
